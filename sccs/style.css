@@ -48,7 +48,7 @@ header nav {
 }
 
 .first {
-  background-image: url(./assets/home/desktop/image-hero.jpg);
+  background-image: url(../assets/home/desktop/image-hero.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-size: cover;
@@ -58,6 +58,8 @@ header nav {
   background-color: black;
 }
 .first h3 {
+  margin-left: 22px;
+  margin-right: 25px;
   font-family: Manrope;
   font-size: 14px;
   font-weight: 400;
@@ -66,6 +68,8 @@ header nav {
   text-align: left;
 }
 .first h1 {
+  margin-left: 22px;
+  margin-right: 25px;
   margin-top: 24px;
   font-family: Manrope;
   font-size: 56px;
@@ -75,6 +79,8 @@ header nav {
   text-align: left;
 }
 .first p {
+  margin-left: 22px;
+  margin-right: 25px;
   max-width: 349px;
   margin-top: 23px;
   font-family: Manrope;
@@ -85,6 +91,8 @@ header nav {
   text-align: left;
 }
 .first a button {
+  margin-left: 22px;
+  margin-right: 25px;
   margin-top: 38.27px;
   text-align: center;
   color: white;

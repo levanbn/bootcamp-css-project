@@ -48,16 +48,24 @@ header {
      
    }
    .first{
-    background-image:url(./assets/home/desktop/image-hero.jpg);
+   
+    background-image: url(../assets/home/desktop/image-hero.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    /* background-size: 100%; */
     background-size: cover;
-    
     background-position: center;
-    padding-top:1px;
+    padding-top: 108px;
+    /* margin-left: 23px; */
+    /* margin-right: 24px; */
+    padding-right: 24px;
+    padding-left: 23px;
     color: white;
     background-color: black;
+    height: 510px;
+    
     h3{
+        margin-left: 65px;
+        margin-right: 64px;
         font-family: Manrope;
         font-size: 14px;
         font-weight: 400;
@@ -66,38 +74,44 @@ header {
         text-align: left;
     }
     h1{
-        margin-top: 24px;
-        font-family: Manrope;
-        font-size: 56px;
-        font-weight: 700;
-        line-height: 58px;
-        letter-spacing: 2px;
-        text-align: left;
+            /* margin-left: 22px; */
+    /* margin-right: 25px; */
+    margin-top: 16px;
+    font-family: Manrope;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: center;
     }
     p{
-        max-width: 349px;
-        margin-top: 23px;
-        font-family: Manrope;
-        font-size: 15px;
-        font-weight: 500;
-        line-height: 25px;
-        letter-spacing: 0px;
-        text-align: left;
+          /* margin-left: 22px; */
+    /* margin-right: 25px; */
+    max-width: 349px;
+    margin-top: 24px;
+    font-family: Manrope;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: center;
     }
     a{
-        button{
-            margin-top: 38.27px;
+        button{     margin-left: 84px;
+            margin-right: 84px;
+            margin-top: 28px;
             text-align: center;
             color: white;
             width: 160px;
             height: 45.92px;
-            background-color:#D87D4A ;
+            background-color: #D87D4A;
             border: none;
             cursor: pointer;
             font-family: Manrope;
             font-size: 13px;
             font-weight: 700;
             line-height: 18px;
+            position: relative;
             letter-spacing: 1px;
             
         }
