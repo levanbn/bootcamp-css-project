@@ -229,12 +229,11 @@ header nav {
 
 @media (min-width: 768px) {
   .second {
-    padding: 0 5.2% 0 5.2%;
     display: flex;
-    margin-top: 14.8rem;
     flex-direction: row;
     align-items: center;
-    gap: 1rem;
+    margin: 14.8rem 5.2% 0 5.2%;
+    padding: 0;
   }
   .second .suii {
     width: 29%;
@@ -258,9 +257,7 @@ header nav {
 }
 @media (min-width: 1440px) {
   .second {
-    margin-top: 12.7rem;
-    gap: 3rem;
-    padding: 0 11% 0 11%;
+    margin: 12.7rem 11.5% 0 11.5%;
   }
   .second .suii .cr7 {
     width: 12.2rem;
@@ -525,11 +522,12 @@ header nav {
   .fifth .photo {
     background-image: url(../assets/home/tablet/image-earphones-yx1.jpg);
     height: 32rem;
+    width: 50%;
     background-repeat: no-repeat;
   }
   .fifth .yx1 {
     height: 32rem;
-    width: 33.9rem;
+    width: 50%;
     background-color: #F1F1F1;
   }
   .fifth .yx1 h1 {
@@ -542,42 +540,59 @@ header nav {
 }
 @media (min-width: 1440px) {
   .fifth {
-    margin: 2.4rem 5.2% 0 5.2%;
-    width: 89.6%;
+    margin: 4.8rem 11.5% 0 11.5%;
+    width: 77%;
     display: flex;
-    flex-direction: column;
-    gap: 2.4rem;
+    flex-direction: row;
   }
   .fifth .photo {
     background-image: url(../assets/home/desktop/image-earphones-yx1.jpg);
     background-size: cover;
-    height: 20rem;
+    width: 50%;
+    height: 32rem;
   }
   .fifth .yx1 {
-    height: 20rem;
+    width: 50%;
+    height: 32rem;
   }
   .fifth .yx1 h1 {
-    padding-left: 2.4rem;
-    padding-top: 4.1rem;
-    font-weight: 700;
-    color: black;
-    font-family: Manrope;
-    font-size: 2.8rem;
-    letter-spacing: 2px;
-    line-height: 4rem;
+    padding-left: 9.5rem;
+    padding-top: 10rem;
   }
   .fifth .yx1 button {
     margin-top: 3.2rem;
     background-color: #F1F1F1;
-    margin-left: 2.5rem;
-    border: 1px solid black;
-    font-family: Manrope;
-    width: 16rem;
-    height: 4.8rem;
-    color: black;
-    font-weight: 700;
-    font-size: 1.3rem;
-    line-height: 1.8rem;
-    letter-spacing: 1px;
+    margin-left: 9.6rem;
   }
+}
+.sixth {
+  margin: 12rem 5.2% 0 5.2%;
+  width: 89.6%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.sixth .photo {
+  background-image: url(../assets/shared/mobile/image-best-gear.jpg);
+  background-repeat: no-repeat;
+  height: 20rem;
+  width: 10rem;
+  background-size: cover;
+}
+.sixth .audiogear h1 {
+  font-weight: 700;
+  color: black;
+  font-family: Manrope;
+  font-size: 2.8rem;
+  letter-spacing: 1px;
+  line-height: 4rem;
+}
+.sixth .audiogear p {
+  margin-top: 3.2rem;
+  font-family: Manrope;
+  color: black;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
 }/*# sourceMappingURL=style.css.map */
