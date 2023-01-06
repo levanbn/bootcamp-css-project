@@ -195,7 +195,7 @@ header nav {
   position: relative;
 }
 .second .suii .cr7 {
-  width: 8rem;
+  width: 14rem;
   height: 10.4rem;
   position: absolute;
   top: -5.2rem;
@@ -308,11 +308,13 @@ header nav {
   line-height: 2.5rem;
   opacity: 75%;
 }
-.third .third3 button {
+.third .third3 a {
+  margin-top: 2.4rem;
+}
+.third .third3 a button {
   font-family: Manrope;
   width: 16rem;
   height: 4.8rem;
-  margin-top: 2.4rem;
   background-color: black;
   color: #FFFFFF;
   font-weight: 700;
@@ -340,7 +342,7 @@ header nav {
     height: 7.5rem;
     padding-top: 2.4rem;
   }
-  .third .third3 button {
+  .third .third3 a button {
     margin-top: 4rem;
     margin-bottom: 6.4rem;
     padding-top: 1.5rem;
@@ -389,7 +391,7 @@ header nav {
     line-height: 2.5rem;
     opacity: 75%;
   }
-  .third .third3 button {
+  .third .third3 a button {
     margin: 0%;
     padding-left: 0%;
     font-family: Manrope;
@@ -676,5 +678,153 @@ header nav {
   }
   .sixth .audiogear p {
     text-align: left;
+  }
+}
+footer {
+  padding: 0 0 3.8rem 0;
+  margin-top: 12rem;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
+footer .head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .head img {
+  margin-top: 5.2rem;
+  width: 14.3rem;
+  height: 2.5rem;
+}
+footer .head .links {
+  margin-top: 4.8rem;
+  display: flex;
+  gap: 1.6rem;
+  flex-direction: column;
+}
+footer .head .links a {
+  color: #FFFFFF;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-family: Manrope;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 25px;
+}
+footer p {
+  max-width: 87%;
+  margin: 4.8rem 6.4% 0 6.4%;
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 50%;
+}
+footer .foot {
+  margin-top: 4.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+  text-align: center;
+  align-items: center;
+}
+footer .foot h6 {
+  color: #FFFFFF;
+  opacity: 50%;
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+}
+footer .foot .socialmedia {
+  display: flex;
+  gap: 1.6rem;
+}
+
+@media (min-width: 768px) {
+  footer {
+    padding: 0 4rem 4.6rem 4rem;
+    margin-top: 9.6rem;
+    width: 100%;
+    background-color: black;
+    text-align: left;
+  }
+  footer .head {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  footer .head img {
+    margin-top: 6rem;
+    width: 14.3rem;
+    height: 2.5rem;
+  }
+  footer .head .links {
+    margin-top: 4.8rem;
+    display: flex;
+    gap: 3.4rem;
+    flex-direction: row;
+  }
+  footer p {
+    text-align: left;
+    max-width: 87%;
+    margin: 3.2rem 6.4% 0 0;
+  }
+  footer .foot {
+    margin-top: 4.8rem;
+    display: flex;
+    flex-direction: row;
+    gap: 42.5%;
+    text-align: center;
+  }
+  footer .foot .socialmedia {
+    display: flex;
+    gap: 1.6rem;
+  }
+}
+@media (min-width: 1440px) {
+  footer {
+    padding: 0 4rem 4.6rem 4rem;
+    margin-top: 7.5rem;
+    width: 100%;
+    background-color: black;
+    text-align: left;
+  }
+  footer .head {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  footer .head img {
+    margin-top: 0;
+    width: 14.3rem;
+    height: 2.5rem;
+  }
+  footer .head .links {
+    height: 2.5rem;
+    margin-top: 0;
+    display: flex;
+    gap: 3.4rem;
+    flex-direction: row;
+  }
+  footer p {
+    text-align: left;
+    max-width: 87%;
+    margin: 3.2rem 6.4% 0 0;
+  }
+  footer .foot {
+    margin-top: 4.8rem;
+    display: flex;
+    flex-direction: row;
+    gap: 42.5%;
+    text-align: center;
+  }
+  footer .foot .socialmedia {
+    display: flex;
+    gap: 1.6rem;
   }
 }/*# sourceMappingURL=style.css.map */
