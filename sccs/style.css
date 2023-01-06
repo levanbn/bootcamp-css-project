@@ -788,43 +788,43 @@ footer .foot .socialmedia {
 }
 @media (min-width: 1440px) {
   footer {
-    padding: 0 4rem 4.6rem 4rem;
+    padding: 0 11.5% 0 11.5%;
     margin-top: 7.5rem;
-    width: 100%;
+    width: 77%;
     background-color: black;
     text-align: left;
   }
   footer .head {
+    margin-top: 7.5rem;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    justify-content: space-between;
   }
   footer .head img {
-    margin-top: 0;
     width: 14.3rem;
     height: 2.5rem;
   }
   footer .head .links {
     height: 2.5rem;
-    margin-top: 0;
     display: flex;
     gap: 3.4rem;
     flex-direction: row;
   }
   footer p {
     text-align: left;
-    max-width: 87%;
-    margin: 3.2rem 6.4% 0 0;
+    max-width: 37.5%;
+    margin-top: 3.6rem;
   }
   footer .foot {
-    margin-top: 4.8rem;
-    display: flex;
-    flex-direction: row;
-    gap: 42.5%;
-    text-align: center;
+    margin-top: 0;
+    padding-bottom: 4.8rem;
+    justify-content: space-between;
+  }
+  footer .foot h6 {
+    padding-top: 5.6rem;
   }
   footer .foot .socialmedia {
-    display: flex;
-    gap: 1.6rem;
+    padding-right: 0;
+    padding-bottom: 13.8rem;
   }
 }/*# sourceMappingURL=style.css.map */
