@@ -195,8 +195,8 @@ header {
     flex-direction: column;
     gap: 6.8rem;
     margin: 9.2rem 5.2% 0 5.2%;
-   // border-radius: 5px;
     .suii{
+        border-radius: 10px;
         padding-top:8.8rem;
         //display: flex;
         margin: auto;
@@ -286,6 +286,7 @@ header {
 }
 
 .third{
+    border-radius: 10px;
     margin: 0 5.2% 0 5.2%;
     width: 89.6%;
     height: 60rem;
@@ -429,6 +430,7 @@ header {
    } 
 
 .fourth{
+    border-radius: 10px;
     margin: 2.4rem 5.2% 0 5.2%;
     width: 89.6%;
     height: 32rem;
@@ -501,12 +503,14 @@ header {
     flex-direction:column;
     gap:2.4rem;
     .photo{
+        border-radius: 10px;
         background-image:url(../assets/home/mobile/image-earphones-yx1.jpg);
         background-repeat: no-repeat;
         height: 20rem;
         background-size: cover;
     }
     .yx1{
+        border-radius: 10px;
         height: 20rem;
         background-color: #F1F1F1;
         h1{
@@ -598,6 +602,7 @@ header {
     flex-direction:column;
     
     .photo{
+        border-radius: 10px;
         background-image:url(../assets/shared/mobile/image-best-gear.jpg);
         background-repeat: no-repeat;
         height:32.7rem;
