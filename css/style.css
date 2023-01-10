@@ -545,8 +545,8 @@ body main .section-3 .product-div-3 .bottom-part a button:hover {
 }
 @media (min-width: 1440px) {
   body main .section-3 {
-    padding: 168rem 165rem 0 165rem;
-    gap: 48rem;
+    padding: 16.8rem 16.5rem 0 16.5rem;
+    gap: 4.8rem;
   }
 }
 body main .section-4 {
@@ -701,7 +701,7 @@ body footer .footer-flex-bottom .social-links {
     justify-content: space-between;
   }
   body footer .big-p {
-    max-width: 5.4rem;
+    max-width: 54rem;
     margin: 3.6rem 0 0;
   }
   body footer .footer-flex-bottom {
